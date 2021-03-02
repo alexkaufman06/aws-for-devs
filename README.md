@@ -5,4 +5,8 @@ This is documentation of my learnings from from the Linkedin course on [AWS for 
 ## Identity and Access Management (IAM)
 
 New accounts come with a root level user that has permissions to do everything including deleting the account.
-  * So, it is best practice to another user and give that user permissions for administration access but it will not be able to delete the account
+  * It is best practice to another user and give that user permissions for administration access but it will not be able to delete the account
+  * Users get `permissions` through `policies` that are attached to a user
+    * You can create `policies` in bulk by using groups
+  * `Services` have `roles` a `user` has `permissions` for determining their access
+    * `Roles` have `policies` just like `permissions`
